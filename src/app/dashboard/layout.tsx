@@ -3,6 +3,8 @@ import { DashboardLayout } from '@/components/dashboard/layout/dashboard-layout'
 import { createClient } from '@/utils/supabase/server';
 import { redirect } from 'next/navigation';
 
+export const dynamic = 'force-dynamic';
+
 interface Props {
   children: ReactNode;
 }
