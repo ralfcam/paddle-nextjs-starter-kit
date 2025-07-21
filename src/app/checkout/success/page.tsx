@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { SuccessPageGradients } from '@/components/gradients/success-page-gradients';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
